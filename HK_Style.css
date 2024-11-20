@@ -1,0 +1,103 @@
+body               /*élement pour le corps du document */
+{                  /*Début des informations concernant body */
+   background-color:hwb(0 20% 80%);   /* definir la couleur du fond, bleu ici. */
+   color:#ffffff;              /*couleur du reste, blanc ici */
+   font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif; /*liste des polices dont au moins une est nécessaire pour consulter le site */
+   font-size:small; /* taille du texte */
+   margin:2em;     /* taille de la marge*/
+   padding:0;       /* espace entre un contenu et sa bordure */
+   
+}                   /* fin des informations concernant body  */
+                    
+#page          /* les informations suivantes concerneront #page */
+{              /* debut des informations concernant #page */
+   color:#000000;             /* Selection de la couleur  */     
+   background-color:hwb(0 20% 80%);  /* couleur de fond          */
+
+   min-height:400em;           /* hauteur minimum d'un élement */
+   height:400em;               /* hauteur d'un élement     */
+}                             /* fin des informations concernant #page */
+        
+
+html>body #page               /*  */
+{
+   height:auto;               /* modifier automatiquement la taille */     
+}
+
+header
+{
+	margin: 2em 3% 1% 3%;      /* Taille de la marge  */
+	padding:0.05em 0 0.05em 0; /* espace entre le contenu et la bordure */
+	font-size:200%;            /* Taille du texte     */
+	background-color:#696969;  /* Couleur du fond (jaune) */
+	border-radius:25px;        /* Rayon de la bordure     */
+}
+header h1
+{
+	font-family:"Tenor Sans",Arial,Helvetica,sans-serif; /* Changer la police de base en comic sans */
+	text-align:center; /* aligner le texte du header au centre */
+}
+
+header .logo /* faire attention à l'espace */
+{
+	float:left;      /* mettre le logo à gauche */
+	margin-top:20px;      /* a 20px de la marge en haut */
+	margin-bottom:5px;    /* a 5px de la marge en bas */
+	margin-left:1%;       /* a 1% de la taille de l'ecran de la marge à gauche */
+	display:block;        /* display le head en tant que block */
+}
+
+nav
+{
+	left:5%;      /* positionner nav a 5% de la taille de l'écran de la marge gauche */
+	position:absolute;    /* fixer la valeur de la propriété position à "absolute". */
+	width:15%;         /*largeur de 15% */
+	overflow:hidden; /* cacher les élements qui débordent de l'élement parent */
+}
+
+
+body h3 {
+    border-color: #cd7e07;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    font-size: 24;
+    font-weight: bold;
+    font-family: "Agency FB", sans-serif; /* Utilisation de la police */
+    margin: 0;
+    padding-left: 0em;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    list-style: none;
+	color : #ed1c24
+}
+
+
+article
+{
+	background-color:#424b59; /* changer la couleur de fond de article */
+	border:1px solid #424b59; /* modifier la bordure */
+	line-height:150%;         /* 150% d'espace entre chaque lignes */
+	margin:0 3% 2em 21%;      /* taille de la marge */
+	padding:0 2% 3em 2%;      /* proportions du padding */
+	color:#0f0f00;            /* couleur de article*/
+}
+
+article h2
+{
+	border-color:#cd7e07; 
+	border-style:solid;        /* Change le type de contours */
+	border-width: 0 0 3px 0;   /* définie la largeur de la bordure */
+}
+
+a
+{
+	display:block; /* affiche les balises a comme blocs */
+	
+}
+
+div h1
+{
+	font-size: 99px;  
+	
+}
